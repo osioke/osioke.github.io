@@ -8,4 +8,4 @@ The following is a set of guidelines for contributing to
 I am still working around what this guide will be, but for now, if you want to 
 contribute, just head over to the 
 [issues page](https://github.com/osioke/sprimed.com/issues) and start an issue 
-discussing what you want to add. Thanks :simple_smile: :+1:.
+discussing what you want to add. Thanks :smiley: :+1:.
