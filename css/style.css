@@ -1,0 +1,42 @@
+html, body {
+  font-family: monospace;
+  display: flex;
+  min-height: 100vh;
+  flex-flow: column;
+  background-color: black;
+  color: white;
+}
+
+.body {
+  flex: 1;
+  margin: 2rem 3rem;
+}
+
+input {
+  font-family: monospace;
+}
+
+fieldset {
+  display: inline-flex;
+}
+
+footer {
+  flex: 0;
+  align-self: center;
+}
+
+.aboutMe {
+  margin-top: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: white;
+}
