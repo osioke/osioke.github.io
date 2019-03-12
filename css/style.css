@@ -4,7 +4,7 @@ html, body {
   min-height: 100vh;
   flex-flow: column;
   background-color: black;
-  color: white;
+  color: #eeeeee;
 }
 
 .body {
@@ -31,6 +31,10 @@ footer {
 
 a {
   text-decoration: none;
+}
+
+a:link {
+  color:#008ecc;
 }
 
 a:visited {
