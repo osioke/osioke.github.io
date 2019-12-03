@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/osioke
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://osioke.com
+  * I am osioke (https://keybase.io/osioke) on keybase.
+  * I have a public key ASAPfEcqQHA4Y1xUyyUYzUfbAgwI9nEXkkiKny4DZFa4fgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207a4a7629487f4993aca14afc5a7ddda319d65902c046182adba3dbf9b1e5e8be0a",
+      "host": "keybase.io",
+      "kid": "01200f7c472a407038635c54cb2518cd47db020c08f6711792488a9f2e036456b87e0a",
+      "uid": "01f63010c53182a224903adb916eb519",
+      "username": "osioke"
+    },
+    "merkle_root": {
+      "ctime": 1575358104,
+      "hash": "7167595e0c88714eed12b26bed4a4c807712547bfb3b094bf3656d838a8420ef9a2ef288bc2295a5021ddf1e32100d17102a3145d98fce3d87d3a39c54b33410",
+      "hash_meta": "a36185c27dde22753df6bdb0966e200bf607225f442f8e2ac252e720a8a8813c",
+      "seqno": 11901511
+    },
+    "service": {
+      "entropy": "faJqvMxYwHWKVARRmgG6jd9Q",
+      "hostname": "osioke.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1575358111,
+  "expire_in": 504576000,
+  "prev": "0da8a02d72d5b4561a9433df67d7e0d39812d0c4128d1ac06f535db0a2e314b3",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgD3xHKkBwOGNcVMslGM1H2wIMCPZxF5JIip8uA2RWuH4Kp3BheWxvYWTESpcCDsQgDaigLXLVtFYalDPfZ9fg05gS0MQSjRrAb1NdsKLjFLPEIIpnq1N841phIMOj4I16NpW7Zlxe69Wi4AY9tnw0ydkgAgHCo3NpZ8RA56YumezRo+suzqMJP/BOi/dvSlvxD/nEDzn39KoJKQxseQ+9F0WQ96glYfJtvLzrS00341cZAb1zFIFd4NAIBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIB4qnBJjbU7C5kMi9vSc5wuhjp/7DaeHeQTZYTjB5zlbo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/osioke
+
+==================================================================
