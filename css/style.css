@@ -7,6 +7,7 @@
   --border: #1a1a1a;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
   --max-width: 640px;
+  --max-width-wide: 900px;
 }
 
 * {
@@ -31,9 +32,76 @@ body {
 .body {
   flex: 1;
   width: 100%;
-  max-width: var(--max-width);
+}
+
+.layout {
+  width: 100%;
+  max-width: var(--max-width-wide);
   margin: 0 auto;
   padding: 3.5rem 1.25rem 2.5rem;
+  display: grid;
+  grid-template-columns: minmax(0, var(--max-width));
+  gap: 2rem;
+}
+
+.content {
+  min-width: 0;
+  max-width: var(--max-width);
+}
+
+/* Table of contents: a sticky sidebar on wide screens, a closed <details> on narrow ones */
+.toc-desktop {
+  display: none;
+}
+
+.toc-mobile {
+  margin-bottom: 2rem;
+  border: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+}
+
+.toc-mobile summary {
+  color: var(--muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.toc-mobile[open] summary {
+  margin-bottom: 0.5rem;
+}
+
+.toc-desktop ul,
+.toc-mobile ul {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+}
+
+.toc-desktop li,
+.toc-mobile li {
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.toc-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+@media (min-width: 860px) {
+  .layout {
+    grid-template-columns: 150px minmax(0, var(--max-width));
+    align-items: start;
+  }
+  .toc-desktop {
+    display: block;
+    position: sticky;
+    top: 2.5rem;
+  }
+  .toc-mobile {
+    display: none;
+  }
 }
 
 header h1 {
