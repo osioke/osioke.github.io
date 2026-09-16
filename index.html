@@ -14,6 +14,30 @@
 
 <body>
     <div class="body">
+        <div class="layout">
+            <nav class="toc-desktop" aria-label="Section navigation">
+                <p class="toc-label">$ ls sections</p>
+                <ul>
+                    <li><a href="#whoami">whoami</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#outside-of-work">outside of work</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="work.html">/work &rarr;</a></li>
+                </ul>
+            </nav>
+            <details class="toc-mobile">
+                <summary>$ ls sections</summary>
+                <ul>
+                    <li><a href="#whoami">whoami</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#outside-of-work">outside of work</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="work.html">/work &rarr;</a></li>
+                </ul>
+            </details>
+            <div class="content">
         <section>
             <header>
                 <h1>Hi, I'm <a href="about-sprime.html">Sprime</a><span class="cursor">_</span><br>
@@ -29,21 +53,23 @@
                 then code, each stage reviewed before the next begins rather than one long handoff.
             </p>
 
-            <section class="block">
+            <section class="block" id="whoami">
                 <h2>whoami</h2>
                 <ul class="skills">
                     <li><strong>Product strategy</strong> — turning a fuzzy problem into a shipped thing, then
                         paying attention to what happens next.</li>
                     <li><strong>Community &amp; systems design</strong> — I've grown real communities and watched
                         closely why some of them create fast learning and others don't.</li>
-                    <li><strong>Applied field research</strong> — I trust what people do over what they say they do.
-                        Some of my best product decisions came from watching, not asking.</li>
+                        <li><strong>Applied field research</strong> — I trust what people do over what they say they
+                        do, and I pay close attention to what people's emotions give away, since that often tells me
+                        more about someone's real needs than their words do. Some of my best product decisions came
+                        from watching and reading people closely, not just asking.</li>
                     <li><strong>AI-assisted building</strong> — research, design, then code with AI, each stage
                         checked and corrected by me before the next.</li>
                 </ul>
             </section>
 
-            <section class="block">
+            <section class="block" id="projects">
                 <h2>projects</h2>
                 <ul class="projects">
                     <li>
@@ -54,15 +80,6 @@
                         An early version paused after user research showed the HR workflow I'd assumed didn't match
                         how these teams actually work; now back in active development, with a proper diagnosis of
                         what the extraction pipeline was missing.
-                    </li>
-                    <li>
-                        Devcenter &amp; <a href="https://www.gigson.co/" target="_blank">Gigson.co</a> (2016–2017):
-                        grew a Lagos developer community from 100 to over 2,500 members in a year. While running it,
-                        I noticed something odd — people asking beginner questions were, within months, answering
-                        hard ones for other members, with nobody managing that on purpose. That observation is the
-                        question everything since has tried to answer. I also conceived and led Gigson.co, a
-                        freelance marketplace that became the company's main revenue product — still live today,
-                        though long since evolved past what I originally built.
                     </li>
                     <li>
                         <a href="https://community.growthclinic.xyz/" target="_blank">Growth Clinic</a> &amp;
@@ -80,19 +97,39 @@
                         hours, down from a 20-hour baseline. Now sunsetted.
                     </li>
                     <li>
-                        <strong>Shop</strong> (2025): a full-stack inventory and sales-management system for a family
-                        convenience store — role-based access, real-time inventory, credit tracking, sales
-                        reporting. Built solo with Firebase; one of the more recent proofs that I can take
-                        AI-assisted building all the way from idea to something a real business runs on.
+                        <strong>Shop</strong> (2025): a full-stack inventory and sales-management system I built for
+                        my mum's convenience store — role-based access, real-time inventory, credit tracking, sales
+                        reporting. She hasn't ended up using it day to day, but it's a solid recent proof that I can
+                        take AI-assisted building from idea to something a real business could run on.
                     </li>
                 </ul>
                 <p class="more-link">A few more — including Disease Info, a
                     <a href="https://github.com/osioke/what-is-it-gameshow" target="_blank">gameshow app</a> built
-                    for a streamer, and a manga tracker I use myself — plus my full work history, live on the
-                    <a href="work.html">/work</a> page.</p>
+                    for a streamer, a self-improvement RPG, and a manga tracker I use myself — plus my full work
+                    history, live on the <a href="work.html">/work</a> page.</p>
             </section>
 
-            <section class="block">
+            <section class="block" id="experience">
+                <h2>experience</h2>
+                <p>
+                    A short version of where I've worked and what I actually did there. The fuller list — every
+                    role, dates, and what I shipped at each — is on the <a href="work.html">/work</a> page.
+                </p>
+                <ul class="skills">
+                    <li><strong>Devcenter</strong> (2016–2017) — grew a Lagos developer community from 100 to over
+                        2,500 members in a year, and conceived and led development of
+                        <a href="https://www.gigson.co/" target="_blank">Gigson.co</a>, a freelance marketplace that
+                        became the company's main revenue product.</li>
+                    <li><strong>Discourse</strong> (2019–2022) — Community Advocate &amp; Product R&amp;D Lead for a
+                        platform serving over 50,000 community members; shipped a Salesforce integration plugin and
+                        a points-based gamification system.</li>
+                    <li><strong>RelianceHMO</strong> (2019) — Team Lead, Products &amp; Online Retail; delivered 15%
+                        month-on-month growth in retail insurance sales and led a full redesign of the company site
+                        off the back of a customer journey audit.</li>
+                </ul>
+            </section>
+
+            <section class="block" id="outside-of-work">
                 <h2>outside of work</h2>
                 <p>
                     Most of what I like outside work comes down to the same thing: figuring out how something works
@@ -111,13 +148,15 @@
                 </p>
             </section>
 
-            <section class="block">
+            <section class="block" id="contact">
                 <h2>contact</h2>
                 <p>Do you have something you'd like us to work on? <a href="http://bit.ly/dm-sprime" target="_blank">Send
                         me a DM</a>, or find my full work history on
                     <a href="https://www.linkedin.com/in/osiokeitseuwa/" target="_blank">LinkedIn</a>.</p>
             </section>
         </section>
+            </div>
+        </div>
     </div>
     <footer>
         <p>You've just been <a href="https://osioke.com">Sprimed!</a></p>
