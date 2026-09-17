@@ -219,6 +219,15 @@ ul.projects li:last-child {
   margin-bottom: 0;
 }
 
+ul.projects li.note {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+ul.projects li.note strong {
+  color: var(--fg);
+}
+
 .more-link {
   margin-top: 1.25rem;
   color: var(--muted);
